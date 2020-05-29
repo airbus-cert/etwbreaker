@@ -34,3 +34,7 @@ Scheme data are contain in a bordered region, for security purpose, and can be r
 
 But, in oposite of manifest ETW, the link between event and provider are made at execution time, and all event have same id(0).
 This is why we list only providers in case of Tracelogging.
+
+## SSTIC (Symposium sur la sécurité des technologies de l'information et des communications)
+
+This project is part of presentation made for [SSTIC](https://www.sstic.org/2020/presentation/quand_les_bleus_se_prennent_pour_des_chercheurs_de_vulnrabilites/)
