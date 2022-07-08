@@ -124,7 +124,7 @@ class ETWBreaker(idaapi.ida_idaapi.plugin_t):
         try:
             providers += parse_manifest(find_wevt_template(*find_segment(".rsrc")[0]))
         except IndexError:
-            ETWBreaker.log("Please concider to reload the file and check the 'Load Resource' checkbox")
+            ETWBreaker.log("Please consider reloading the file and check the 'Load resources' checkbox")
         except ETWBreakerException as e:
             ETWBreaker.log(str(e))
 
